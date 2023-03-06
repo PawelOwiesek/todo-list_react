@@ -4,7 +4,6 @@ const Form = () => (
   <form className="form">
     <input
       className="form__input "
-      autofocus
       name="task"
       placeholder="New task"
     />
