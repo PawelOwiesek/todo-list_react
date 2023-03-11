@@ -1,15 +1,19 @@
 import "./styles.css";
 
-const Buttons = (props) => (
-    props.tasks.length > 0 &&
+const Buttons = ({ tasks, hideDone, toggleHideDone }) => (
+
     <div className="section__buttons ">
-        <button className="section__button">{props.hideDone ? " Show" : " Hide"}
-            Done Tasks
-        </button>
-        <button className="section__button"
-            disabled={props.tasks.every(({ done }) => done)}>
-            Mark All Tasks As Done
-        </button>
+        {tasks.length > 0 && (
+            <>
+                <button onClick={toggleHideDone} className="section__button">{hideDone ? " Show" : " Hide"}
+                    Done Tasks
+                </button>
+                <button className="section__button"
+                    disabled={tasks.every(({ done }) => done)}>
+                    Mark All Tasks As Done
+                </button>
+            </>
+        )}
     </div>
 );
 
