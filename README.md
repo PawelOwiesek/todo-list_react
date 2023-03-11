@@ -1,8 +1,10 @@
 # **Simple-to-do-list.**
+## **This project was bootstrapped with Create React App.**
 ### 📖This is a simple page that allows you to create your own to-do list. We can add new tasks, mark tasks as completed and delete them.
 ### ⚙Technologies used to create this list:
+- **React and JSX syntax**
 - **HTML5**
-- **CSS3**(grid/flex/media queries)****
+- **CSS3**(grid/flex/media queries)
 - **JavaScript**
 - **BEM convention**
 - **React**
