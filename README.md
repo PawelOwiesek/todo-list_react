@@ -1,4 +1,6 @@
 # **Simple-to-do-list.**
+<a href='https://postimg.cc/njtPCz02' target='_blank'><img src='https://i.postimg.cc/njtPCz02/React-icon-svg.png' border='0' alt='React-icon-svg'/></a>
+
 ## **This project was bootstrapped with Create React App.**
 ### 📖This is a simple page that allows you to create your own to-do list. We can add new tasks, mark tasks as completed and delete them.
 ### ⚙Technologies used to create this list:
@@ -19,7 +21,7 @@ https://pawelowiesek.github.io/To-do-list/
 ![To do list animation](https://user-images.githubusercontent.com/121549413/218342928-3e35c093-ae6e-4018-8afc-8748441ed889.gif)
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
