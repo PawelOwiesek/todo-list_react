@@ -11,7 +11,7 @@
 - **BEM convention**
 - **React**
 ## 📃Demo
-https://pawelowiesek.github.io/To-do-list/
+https://pawelowiesek.github.io/todo-list_react/
 ## 
 ![to do ](https://user-images.githubusercontent.com/121549413/218343092-1f42352e-3f6a-4672-ae48-cab776fbad0a.png)
 
