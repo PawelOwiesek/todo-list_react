@@ -13,12 +13,14 @@
 ## 📃Demo
 https://pawelowiesek.github.io/todo-list_react/
 ## 
-![to do ](https://user-images.githubusercontent.com/121549413/218343092-1f42352e-3f6a-4672-ae48-cab776fbad0a.png)
+![Screenshot TO_DO_LIST](https://user-images.githubusercontent.com/121549413/229476311-a912e628-7ce5-49f0-9e8e-cea70e656213.png)
+
 
 ## 🎞Gif
 
 ## 
-![To do list animation](https://user-images.githubusercontent.com/121549413/218342928-3e35c093-ae6e-4018-8afc-8748441ed889.gif)
+![Animation TO_DO_LIST](https://user-images.githubusercontent.com/121549413/229477245-6b41db2b-6b14-4c8c-9e1e-212914b38a53.gif)
+
 
 
 
