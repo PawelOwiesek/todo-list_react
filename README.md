@@ -1,5 +1,5 @@
 # **Simple-to-do-list.**
-<p align="center">
+<p align="center" width="100%">
 <a href='https://postimg.cc/njtPCz02' target='_blank'><img width="200" src='https://i.postimg.cc/njtPCz02/React-icon-svg.png' border='0' alt='React-icon-svg'/></a>
 
 ## **This project was bootstrapped with Create React App.**
@@ -61,3 +61,4 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+</p>
