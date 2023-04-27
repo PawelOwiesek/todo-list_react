@@ -1,5 +1,6 @@
 # **Simple-to-do-list.**
-<a href='https://postimg.cc/njtPCz02' target='_blank'><img src='https://i.postimg.cc/njtPCz02/React-icon-svg.png' border='0' alt='React-icon-svg'/></a>
+<p align="center">
+<a href='https://postimg.cc/njtPCz02' target='_blank'><img width="200" src='https://i.postimg.cc/njtPCz02/React-icon-svg.png' border='0' alt='React-icon-svg'/></a>
 
 ## **This project was bootstrapped with Create React App.**
 ### 📖This is a simple page that allows you to create your own to-do list. We can add new tasks, mark tasks as completed and delete them.
@@ -13,8 +14,11 @@
 - **React useState & useEffect**
 - **LocalStorage**
 ## 📃Demo
+ 
 https://pawelowiesek.github.io/todo-list_react/
+ 
 ## 
+
 ![Screenshot TO_DO_LIST](https://user-images.githubusercontent.com/121549413/229476311-a912e628-7ce5-49f0-9e8e-cea70e656213.png)
 
 
@@ -22,7 +26,6 @@ https://pawelowiesek.github.io/todo-list_react/
 
 ## 
 ![Animation TO_DO_LIST](https://user-images.githubusercontent.com/121549413/229477245-6b41db2b-6b14-4c8c-9e1e-212914b38a53.gif)
-
 
 
 
