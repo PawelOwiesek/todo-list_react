@@ -10,6 +10,8 @@
 - **JavaScript**
 - **BEM convention**
 - **React**
+- **React useState & useEffect**
+- **LocalStorage**
 ## 📃Demo
 https://pawelowiesek.github.io/todo-list_react/
 ## 
