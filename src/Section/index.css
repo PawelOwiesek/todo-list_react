@@ -25,27 +25,4 @@
     .section__headerSection {
         grid-template-columns: 1fr;
     }
-
-    .section__buttons {
-        display: grid;
-        grid-template-columns: 1fr;
-        align-items: center;
-    }
-}
-
-.section__button {
-    color: teal;
-    background: none;
-    border: none;
-    transition: 0.5s;
-    padding: 20px;
-}
-
-.section__button:hover {
-    color: hsl(180, 95%, 41%);
-    cursor: pointer;
-}
-
-.section__button:disabled {
-    color: #ccc
 }
