@@ -1,4 +1,4 @@
-import "./styles.css";
+import { Wrapper } from "./Wrapper"
 
-const Container = (props) => <main className="main">{props.children}</main>;
+const Container = (props) => <Wrapper>{props.children}</Wrapper>;
 export default Container;
