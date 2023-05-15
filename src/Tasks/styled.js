@@ -49,7 +49,7 @@ export const Button = styled.button`
 
         &:hover{
             background-color: rgb(136, 9, 9);
-    transform: scale(1.05);
+            transform: scale(1.05);
         }
     `}
 `;

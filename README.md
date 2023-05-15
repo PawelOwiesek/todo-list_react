@@ -11,8 +11,9 @@
 - **JavaScript**
 - **BEM convention**
 - **React**
-- **React useState & useEffect**
+- **React useState , useEffect & useRef**
 - **LocalStorage**
+- **Styled-components**
 ## 📃Demo
  
 https://pawelowiesek.github.io/todo-list_react/
