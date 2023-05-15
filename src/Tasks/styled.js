@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components"
+import styled, { css } from "styled-components";
 
 export const TasksList = styled.ul`
     padding: 0;
@@ -12,7 +12,7 @@ export const Item = styled.li`
     grid-gap: 10px;
     align-items: center;
     padding: 10px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid ${({ theme }) => theme.colors.alto};
     word-break: break-all;
 
     ${({ hidden }) => hidden && css`
@@ -28,7 +28,7 @@ export const Content = styled.span`
 
 export const Button = styled.button`
     border: none;
-    color: white;
+    color: ${({ theme }) => theme.colors.white};
     width: 30px;
     height: 30px;
     padding: 0;
@@ -37,19 +37,20 @@ export const Button = styled.button`
     transform-origin: right bottom;
 
     ${({ toggleDone }) => toggleDone && css`
-    background-color: rgb(12, 131, 12);
+    background-color:${({ theme }) => theme.colors.japanese};
 
         &:hover{
-            background-color: rgb(15, 100, 15);
+            filter:brightness(110%);
             transform: scale(1.05);
-        }
-    `}
+        };
+    `};
+
     ${({ remove }) => remove && css`
-    background-color: rgb(208, 3, 3);
+    background-color: ${({ theme }) => theme.colors.crimson};
 
         &:hover{
-            background-color: rgb(136, 9, 9);
+            filter:brightness(110%);
             transform: scale(1.05);
-        }
-    `}
+        };
+    `};
 `;

@@ -1,22 +1,22 @@
 import styled, { css } from "styled-components";
 
 export const StyledButton = styled.button`
-    color: teal;
+    color: ${({ theme }) => theme.colors.teal};
     background: none;
     border: none;
     transition: 0.5s;
     padding: 20px;
 
-    @media (max-width: 767px) {
+    @media (max-width:${({ theme }) => theme.breakpoints.mobile}px) {
         display: grid;
         grid-template-columns: 1fr;
         align-items: center; 
 };
     &:hover{
-        color: hsl(180, 95%, 41%);
+        color: ${({ theme }) => theme.colors.robins};
         cursor: pointer;
     };
     ${({ disabled }) => disabled && css`
-      color: #ccc
+    color: ${({ theme }) => theme.colors.silver};
     `}
 `;
