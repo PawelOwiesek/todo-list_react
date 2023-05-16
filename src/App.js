@@ -11,16 +11,11 @@ function App() {
   const [hideDone, setHideDone] = useState(false);
 
   const toggleHideDone = () => {
-    setHideDone(hideDone => !hideDone);
+    setHideDone((hideDone) => !hideDone);
   };
 
-  const {
-    tasks,
-    removeTask,
-    toggleTaskDone,
-    setAllDone,
-    addNewTask
-  } = useTasks();
+  const { tasks, removeTask, toggleTaskDone, setAllDone, addNewTask } =
+    useTasks();
 
   return (
     <Container>
@@ -28,12 +23,14 @@ function App() {
       <Section title="Add new task" body={<Form addNewTask={addNewTask} />} />
       <Section
         title="Tasks to be completed:"
-        body={<Tasks
-          tasks={tasks}
-          hideDone={hideDone}
-          removeTask={removeTask}
-          toggleTaskDone={toggleTaskDone}
-        />}
+        body={
+          <Tasks
+            tasks={tasks}
+            hideDone={hideDone}
+            removeTask={removeTask}
+            toggleTaskDone={toggleTaskDone}
+          />
+        }
         extraHeaderContent={
           <Buttons
             tasks={tasks}
@@ -44,7 +41,7 @@ function App() {
         }
       />
     </Container>
-  )
-};
+  );
+}
 
 export default App;

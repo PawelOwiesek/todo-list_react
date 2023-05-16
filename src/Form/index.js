@@ -20,7 +20,7 @@ const Form = ({ addNewTask }) => {
     addNewTask(contentTrimmed);
     setNewTaskContent("");
     focusInput();
-  }
+  };
 
   return (
     <StyledForm onSubmit={onFormSubmit}>
@@ -30,10 +30,11 @@ const Form = ({ addNewTask }) => {
         placeholder="New task"
         onChange={({ target }) => setNewTaskContent(target.value)}
         ref={inputRef}
+        autoFocus
       />
       <StyledButton>Add task</StyledButton>
-    </StyledForm>)
-
-}
+    </StyledForm>
+  );
+};
 
 export default Form;
