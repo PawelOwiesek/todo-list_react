@@ -1,19 +1,23 @@
 # **Simple-to-do-list.**
 <p align="center" width="100%">
-<a href='https://postimg.cc/njtPCz02' target='_blank'><img width="200" src='https://i.postimg.cc/njtPCz02/React-icon-svg.png' border='0' alt='React-icon-svg'/></a>
+<a href='https://postimg.cc/njtPCz02' target='_blank'><img width="100" src='https://i.postimg.cc/njtPCz02/React-icon-svg.png' border='0' alt='React-icon-svg'/></a>
 
 ## **This project was bootstrapped with Create React App.**
 ### 📖This is a simple page that allows you to create your own to-do list. We can add new tasks, mark tasks as completed and delete them.
-### ⚙Technologies used to create this list:
-- **React and JSX syntax**
-- **HTML5**
-- **CSS3**(grid/flex/media queries)
-- **JavaScript**
-- **BEM convention**
-- **React**
-- **React useState , useEffect & useRef**
-- **LocalStorage**
-- **Styled-components**
+ 
+| ⚙Technologies used to create this list: |
+|-----------------------------------------|                                    
+|      `React and JSX syntax`             |                                                                                                
+|           `HTML5`                       |
+|   `CSS3 (grid/flex/media queries)`      |
+|            `JavaScript`                 |
+|          `BEM convention`               |
+|               `React`                   |
+|  `React useState , useEffect & useRef`  |
+|          `LocalStorage`                 |
+|         `Styled-components`             |
+ 
+  
 ## 📃Demo
  
 https://pawelowiesek.github.io/todo-list_react/
