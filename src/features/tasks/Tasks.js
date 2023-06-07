@@ -1,45 +1,22 @@
-import { useState } from "react";
 import { useTasks } from "../../useTasks";
-import { useSelector } from "react-redux";
 import Form from "./Form";
 import TasksList from "./TaskList";
 import Buttons from "./Buttons";
 import Section from "../../common/Section";
 import Header from "../../common/Header";
 import Container from "../../common/Container";
-import { selectTasks } from "./tasksSlice";
 
 function Tasks() {
-  const [hideDone, setHideDone] = useState(false);
-
-  const toggleHideDone = () => {
-    setHideDone((hideDone) => !hideDone);
-  };
-  const { tasks } = useSelector(selectTasks);
-  const { removeTask, toggleTaskDone, setAllDone, addNewTask } = useTasks();
+  const { removeTask, setAllDone } = useTasks();
 
   return (
     <Container>
       <Header title="To do list" />
-      <Section title="Add new task" body={<Form addNewTask={addNewTask} />} />
+      <Section title="Add new task" body={<Form />} />
       <Section
         title="Tasks to be completed:"
-        body={
-          <TasksList
-            tasks={tasks}
-            hideDone={hideDone}
-            removeTask={removeTask}
-            toggleTaskDone={toggleTaskDone}
-          />
-        }
-        extraHeaderContent={
-          <Buttons
-            tasks={tasks}
-            hideDone={hideDone}
-            toggleHideDone={toggleHideDone}
-            setAllDone={setAllDone}
-          />
-        }
+        body={<TasksList removeTask={removeTask} />}
+        extraHeaderContent={<Buttons setAllDone={setAllDone} />}
       />
     </Container>
   );
