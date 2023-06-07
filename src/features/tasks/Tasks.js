@@ -1,4 +1,3 @@
-import { useTasks } from "../../useTasks";
 import Form from "./Form";
 import TasksList from "./TaskList";
 import Buttons from "./Buttons";
@@ -7,8 +6,6 @@ import Header from "../../common/Header";
 import Container from "../../common/Container";
 
 function Tasks() {
-  const { setAllDone } = useTasks();
-
   return (
     <Container>
       <Header title="To do list" />
@@ -16,7 +13,7 @@ function Tasks() {
       <Section
         title="Tasks to be completed:"
         body={<TasksList />}
-        extraHeaderContent={<Buttons setAllDone={setAllDone} />}
+        extraHeaderContent={<Buttons />}
       />
     </Container>
   );
