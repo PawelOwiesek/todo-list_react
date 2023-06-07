@@ -7,7 +7,7 @@ import Header from "../../common/Header";
 import Container from "../../common/Container";
 
 function Tasks() {
-  const { removeTask, setAllDone } = useTasks();
+  const { setAllDone } = useTasks();
 
   return (
     <Container>
@@ -15,7 +15,7 @@ function Tasks() {
       <Section title="Add new task" body={<Form />} />
       <Section
         title="Tasks to be completed:"
-        body={<TasksList removeTask={removeTask} />}
+        body={<TasksList />}
         extraHeaderContent={<Buttons setAllDone={setAllDone} />}
       />
     </Container>
