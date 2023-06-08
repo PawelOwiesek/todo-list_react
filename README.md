@@ -16,7 +16,7 @@
 |  `React useState , useEffect & useRef`  |
 |          `LocalStorage`                 |
 |         `Styled-components`             |
- 
+|          `Redux` 
   
 ## 📃Demo
  
