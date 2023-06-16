@@ -13,7 +13,7 @@ function Tasks() {
       <Section
         title="Add new task"
         body={<Form />}
-        extraHeaderContent={SampleTaskButton()}
+        extraHeaderContent={<SampleTaskButton />}
       />
       <Section
         title="Tasks to be completed:"
