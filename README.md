@@ -16,7 +16,8 @@
 |  `React useState , useEffect & useRef`  |
 |          `LocalStorage`                 |
 |         `Styled-components`             |
-|          `Redux` 
+|          `Redux-redux/toolkit`         |
+
   
 ## 📃Demo
  
