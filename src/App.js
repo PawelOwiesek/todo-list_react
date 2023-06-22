@@ -3,7 +3,6 @@ import Tasks from "./features/tasks/Tasks";
 import { Author } from "./features/author/Author";
 const App = () => (
   <HashRouter>
-    <div style={{ display: "flex" }}>
       <nav>
         <ul>
           <li>
@@ -23,7 +22,6 @@ const App = () => (
           </Route>
         </Switch>
       </nav>
-    </div>
   </HashRouter>
 );
 export default App;
