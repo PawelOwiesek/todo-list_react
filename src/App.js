@@ -1,5 +1,5 @@
 import { HashRouter, NavLink, Switch, Route, Redirect } from "react-router-dom";
-import Tasks from "./features/tasks/Tasks";
+import Tasks from "./features/tasks/TasksPage";
 import Author from "./features/author/Author";
 
 const App = () => (
@@ -14,7 +14,6 @@ const App = () => (
             <NavLink to="/tasks">Tasks</NavLink>
           </li>
         </ul>
-
         <Switch>
           <Route path="/author">
             <Author />

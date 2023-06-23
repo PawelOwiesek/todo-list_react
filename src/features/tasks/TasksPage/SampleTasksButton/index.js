@@ -1,5 +1,5 @@
 import { StyledButton } from "../Buttons/StyledButtons";
-import { fetchExampleTasks } from "../tasksSlice";
+import { fetchExampleTasks } from "../../tasksSlice";
 import { useDispatch } from "react-redux";
 
 const SampleTaskButton = () => {
