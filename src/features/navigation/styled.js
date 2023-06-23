@@ -18,6 +18,7 @@ export const List = styled.ul`
   justify-content: center;
   background-color: #008080;
   font-size: 22px;
+  letter-spacing: 3px;
   list-style-type: none;
 `;
 
