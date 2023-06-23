@@ -4,12 +4,13 @@ import styled from "styled-components";
 export const StyledNavLink = styled(NavLink)`
   text-decoration-line: none;
   color: white;
-  border-bottom: 4px solid 008080;
+  border-bottom: 2px solid 008080;
   &.active {
-    color: red;
+    color: fff;
+    font-weight: bold;
   }
   &:hover {
-    border-bottom: 4px solid #fff;
+    border-bottom: 2px solid #fff;
   }
 `;
 
@@ -24,5 +25,5 @@ export const List = styled.ul`
 
 export const Item = styled.li`
   padding: 15px 30px 0 30px;
-  margin-bottom: 4px;
+  margin-bottom: 2px;
 `;
