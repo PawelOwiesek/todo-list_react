@@ -1,16 +1,17 @@
-import { HashRouter, Link, Switch, Route } from "react-router-dom";
+import { HashRouter, NavLink, Switch, Route, Redirect } from "react-router-dom";
 import Tasks from "./features/tasks/Tasks";
-import { Author } from "./features/author/Author";
+import Author from "./features/author/Author";
+
 const App = () => (
   <HashRouter>
     <div>
       <nav>
         <ul>
           <li>
-            <Link to="/author">About author</Link>
+            <NavLink to="/author">About author</NavLink>
           </li>
           <li>
-            <Link to="/tasks">Tasks</Link>
+            <NavLink to="/tasks">Tasks</NavLink>
           </li>
         </ul>
 
@@ -18,8 +19,11 @@ const App = () => (
           <Route path="/author">
             <Author />
           </Route>
-          <Route exactpath="/tasks">
+          <Route path="/tasks">
             <Tasks />
+          </Route>
+          <Route path="/">
+            <Redirect to="/tasks" />
           </Route>
         </Switch>
       </nav>
