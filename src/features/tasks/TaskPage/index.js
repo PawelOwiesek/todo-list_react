@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 import Section from "../../../common/Section";
 import Header from "../../../common/Header";
 import Container from "../../../common/Container";
+import { Span } from "./styled";
 
 import { getTaskById } from "../tasksSlice";
 
@@ -17,7 +18,8 @@ function TaskPage() {
         body={
           task && (
             <>
-              <strong>Task done:</strong> {task.done ? "Yes👌" : "No🤷‍♂️"}
+              <strong>Task done:</strong>{" "}
+              {task.done ? <Span> Yes👌 </Span> : <Span negative> No🤷‍♂️</Span>}
             </>
           )
         }
