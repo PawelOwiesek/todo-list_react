@@ -25,5 +25,5 @@ export const List = styled.ul`
 
 export const Item = styled.li`
   padding: 15px 30px 0 30px;
-  margin-bottom: 2px;
+  margin-bottom: 3px;
 `;
