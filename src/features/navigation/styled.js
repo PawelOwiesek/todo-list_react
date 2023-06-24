@@ -3,21 +3,21 @@ import styled from "styled-components";
 
 export const StyledNavLink = styled(NavLink)`
   text-decoration-line: none;
-  color: white;
-  border-bottom: 2px solid 008080;
+  color: ${({ theme }) => theme.colors.white};
+  border-bottom: 2px solid ${({ theme }) => theme.colors.teal};
   &.active {
-    color: fff;
+    color: ${({ theme }) => theme.colors.white};
     font-weight: bold;
   }
   &:hover {
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid ${({ theme }) => theme.colors.white};
   }
 `;
 
 export const List = styled.ul`
   display: flex;
   justify-content: center;
-  background-color: #008080;
+  background-color: ${({ theme }) => theme.colors.teal};
   font-size: 22px;
   letter-spacing: 3px;
   list-style-type: none;

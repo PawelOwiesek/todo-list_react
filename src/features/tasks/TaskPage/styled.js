@@ -2,10 +2,10 @@ import styled, { css } from "styled-components";
 
 export const Span = styled.span`
   font-size: 25px;
-  color: #008080;
+  color: ${({ theme }) => theme.colors.teal};
   ${({ negative }) =>
     negative &&
     css`
-      color: red;
+      color: ${({ theme }) => theme.colors.crimson};
     `}
 `;
