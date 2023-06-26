@@ -8,6 +8,7 @@ export const theme = {
     japanese: "#0C830C",
     nobel: "#b3b2b2",
     robins: "#05cccc",
+    black: "#000000",
   },
   breakpoints: {
     mobile: 767,
