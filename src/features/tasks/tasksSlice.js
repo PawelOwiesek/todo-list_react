@@ -27,14 +27,14 @@ const tasksSlice = createSlice({
       tasks.map((task) => (task.done = true));
     },
     fetchExampleTasks: (state) => {
-      state.status = true;
+      state.isLoading = true;
     },
     setTasks: (state, { payload: tasks }) => {
       state.tasks = tasks;
-      state.status = false;
+      state.isLoading = false;
     },
     fetchExampleTasksError: (state) => {
-      state.status = false;
+      state.isLoading = false;
     },
   },
 });
@@ -70,6 +70,6 @@ export const selectTasksByQuery = (state, query) => {
   );
 };
 
-export const fetchingStatus = (state) => selectTasksState(state).status;
+export const fetchingisLoading = (state) => selectTasksState(state).isLoading;
 
 export default tasksSlice.reducer;
