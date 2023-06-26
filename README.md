@@ -16,9 +16,10 @@
 |  `React useState , useEffect & useRef`  |
 |          `LocalStorage`                 |
 |         `Styled-components`             |
-|          `Redux-redux/toolkit`         |
+|          `Redux-redux/toolkit`          |
+|            `Redux-Saga`                 |
+|           `React-router`                |
 
-  
 ## 📃Demo
  
 https://pawelowiesek.github.io/todo-list_react/
