@@ -25,8 +25,9 @@
 https://pawelowiesek.github.io/todo-list_react/
  
 ## 
+![Screenshot 2023-06-26 181530](https://github.com/PawelOwiesek/todo-list_react/assets/121549413/b99fe428-7a89-46af-89f9-da5cc7e7648e)
+![Screenshot 2023-06-26 181605](https://github.com/PawelOwiesek/todo-list_react/assets/121549413/5b2f4f6b-ef6d-470e-84a2-b1af96b1d273)
 
-![Screenshot TO_DO_LIST](https://user-images.githubusercontent.com/121549413/229476311-a912e628-7ce5-49f0-9e8e-cea70e656213.png)
 
 
 ## 🎞Gif
