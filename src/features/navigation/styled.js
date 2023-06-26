@@ -21,9 +21,10 @@ export const List = styled.ul`
   font-size: 22px;
   letter-spacing: 3px;
   list-style-type: none;
+  margin: 0;
 `;
 
 export const Item = styled.li`
-  padding: 15px 30px 0 30px;
+  padding: 15px 30px 15px 30px;
   margin-bottom: 3px;
 `;
