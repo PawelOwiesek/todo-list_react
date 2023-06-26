@@ -32,7 +32,8 @@ https://pawelowiesek.github.io/todo-list_react/
 ## 🎞Gif
 
 ## 
-![Animation TO_DO_LIST](https://user-images.githubusercontent.com/121549413/229477245-6b41db2b-6b14-4c8c-9e1e-212914b38a53.gif)
+
+![Animation readme3](https://github.com/PawelOwiesek/todo-list_react/assets/121549413/cffb4c50-a0c2-4549-b69d-52d5c6f6d6eb)
 
 
 
