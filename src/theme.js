@@ -6,7 +6,7 @@ export const theme = {
     white: "#fff",
     crimson: "#db143c",
     japanese: "#0C830C",
-    nobel: "#b3b2b2",
+    nobel: "#f0f0f0",
     robins: "#05cccc",
     black: "#000000",
   },
