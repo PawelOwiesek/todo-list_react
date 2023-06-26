@@ -1,6 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { getTasksFromLocaleStorage } from "./tasksLocalStorage";
-import { queries } from "@testing-library/react";
 
 const tasksSlice = createSlice({
   name: "tasks",
@@ -8,6 +7,7 @@ const tasksSlice = createSlice({
     tasks: getTasksFromLocaleStorage(),
     hideDone: false,
   },
+
   reducers: {
     addTask: ({ tasks }, { payload: task }) => {
       tasks.push(task);
@@ -26,9 +26,15 @@ const tasksSlice = createSlice({
     setAllDone: ({ tasks }) => {
       tasks.map((task) => (task.done = true));
     },
-    fetchExampleTasks: () => {},
+    fetchExampleTasks: (state) => {
+      state.status = true;
+    },
     setTasks: (state, { payload: tasks }) => {
       state.tasks = tasks;
+      state.status = false;
+    },
+    fetchExampleTasksError: (state) => {
+      state.status = false;
     },
   },
 });
@@ -40,6 +46,7 @@ export const {
   removeTask,
   setAllDone,
   fetchExampleTasks,
+  fetchExampleTasksError,
   setTasks,
 } = tasksSlice.actions;
 
@@ -62,5 +69,7 @@ export const selectTasksByQuery = (state, query) => {
     content.toUpperCase().includes(query.trim().toUpperCase())
   );
 };
+
+export const fetchingStatus = (state) => selectTasksState(state).status;
 
 export default tasksSlice.reducer;
