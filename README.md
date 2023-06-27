@@ -3,7 +3,8 @@
 <a href='https://postimg.cc/njtPCz02' target='_blank'><img width="100" src='https://i.postimg.cc/njtPCz02/React-icon-svg.png' border='0' alt='React-icon-svg'/></a>
 
 ## **This project was bootstrapped with Create React App.**
-### 📖This is a simple page that allows you to create your own to-do list. We can add new tasks, mark tasks as completed and delete them.
+### 📖
+My application allows creating a to-do list. Users can add, delete, and mark tasks as completed. Tasks are saved in local storage, and sample tasks are asynchronously fetched from a JSON file. For the purpose of this course, the application utilizes the following technologies.
  
 | ⚙Technologies used to create this list: |
 |-----------------------------------------|                                    
