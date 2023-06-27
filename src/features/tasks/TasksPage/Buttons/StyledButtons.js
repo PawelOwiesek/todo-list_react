@@ -11,6 +11,7 @@ export const StyledButton = styled.button`
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
+    padding: 10px;
   }
   &:hover {
     color: ${({ theme }) => theme.colors.robins};
@@ -34,5 +35,6 @@ export const Container = styled.div`
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
+    padding: 0;
   }
 `;

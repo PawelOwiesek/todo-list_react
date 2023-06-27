@@ -22,6 +22,10 @@ export const List = styled.ul`
   letter-spacing: 3px;
   list-style-type: none;
   margin: 0;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    font-size: 14px;
+  }
 `;
 
 export const Item = styled.li`

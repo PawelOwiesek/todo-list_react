@@ -21,6 +21,9 @@ export const SectionTitle = styled.h2`
   font-size: 20px;
   padding: 20px;
   margin: 0;
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    font-size: 15px;
+  }
 `;
 
 export const SectionBody = styled.div`
