@@ -4,7 +4,6 @@ import styled from "styled-components";
 export const StyledNavLink = styled(NavLink)`
   text-decoration-line: none;
   color: ${({ theme }) => theme.colors.white};
-  border-bottom: 2px solid ${({ theme }) => theme.colors.teal};
   &.active {
     color: ${({ theme }) => theme.colors.white};
     font-weight: bold;

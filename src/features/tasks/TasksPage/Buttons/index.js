@@ -1,5 +1,6 @@
 import { useSelector, useDispatch } from "react-redux";
-import { StyledButton, Container } from "./StyledButtons";
+import { Container } from "./StyledButtons";
+import { StyledButton } from "../Button";
 import {
   selectTasksState,
   toggleHideDone,
