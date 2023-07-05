@@ -4,7 +4,7 @@
 
 ## **This project was bootstrapped with Create React App.**
 ### 📖
-My application allows creating a to-do list. Users can add, delete, and mark tasks as completed. Tasks are saved in local storage, and sample tasks are asynchronously fetched from a JSON file. For the purpose of this course, the application utilizes the following technologies.
+This application is a task manager that allows users to fetch sample tasks asynchronously, add, and modify their own tasks. Users can also search for specific tasks. The app is built using modern web technologies, including Axios for asynchronous data fetching, React-Redux for state management, Redux-Saga for handling side effects, and React-Router for managing navigation within the application. It provides a seamless and efficient user experience in managing tasks and exemplifies the integration of various powerful libraries in the development process.
  
 | ⚙Technologies used to create this list: |
 |-----------------------------------------|                                    
