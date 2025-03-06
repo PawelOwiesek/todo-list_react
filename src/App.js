@@ -7,7 +7,7 @@ import {
 import Tasks from "./features/tasks/TasksPage";
 import AuthorPage from "./features/author/AuthorPage";
 import TaskPage from "./features/tasks/TaskPage";
-import Navigation from "./common/Navigation";
+import Navigation from "./common/navigation";
 
 const App = () => (
   <Router>
